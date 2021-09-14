@@ -18,11 +18,11 @@ const app = Vue.createApp({
       */
       correctAnswer: {
         stage1: {
-          q1: 'あああ',
+          q1: '出勤',
         },
         stage2: {
-          q1: 'いいい',
-           q2: 'えええ',
+          q1: 'デスク',
+          q2: 'ワーク',
           // q3: 'おおお'
         },
         stage3: {
@@ -41,7 +41,7 @@ const app = Vue.createApp({
         ],
         stage2: [
           false, // 2-1
-           false, // 2-2
+          false, // 2-2
           // false, // 2-3
         ],
         stage3: [
